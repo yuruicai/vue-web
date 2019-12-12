@@ -10,6 +10,14 @@ public class Users {
 	
 	private Integer age;
 
+	public Users() {
+	}
+
+	public Users(Integer age, String username) {
+		this.age = age;
+		this.username = username;
+	}
+
 	public Integer getUid() {
 		return uid;
 	}
